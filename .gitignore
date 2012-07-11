@@ -2,6 +2,8 @@
 *.in
 *.in~
 *.m4
+*.swp
+autom4te.*
 Makefile
 Makefile.in
 configure
