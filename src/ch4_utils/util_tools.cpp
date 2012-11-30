@@ -3,6 +3,7 @@
 #include <boost/assign.hpp>
 #include <iostream>
 #include <vector>
+#include <typeinfo>
 
 using namespace std;
 
@@ -103,7 +104,7 @@ catch (my_exception& e) {
 }
 
 
-int main(int argc, char* *argv[]) {
+int main(int argc, char** argv) {
     using namespace boost;
 
     auto_t(y, 2*3.1);
